@@ -46,20 +46,20 @@ a4=5
 
 b4=float(a4)
 
-print(b4)
+print("El número convertido a flotante es: ",b4)
 
 a5="5.9"
 
 b5=int(float(a5))
 b6=float(a5)
 
-print(b5)
-print(b6)
+print("La cadena convertida a entero es: ",b5)
+print("La cadena convertida a flotante es: ",b6)
 
 a7=10
 
 b7=str(a7)
 
-print(b7)
+print("El entero convertido a cadena es: ",b7)
 
 ###################################
