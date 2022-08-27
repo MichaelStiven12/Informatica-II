@@ -1,0 +1,21 @@
+25-08-2022
+
+Caracteristicas de Python:
+
+* Lenguaje de alto nivel
+* Interpretado
+* Paradigma funcional y orientado a objetos
+* Tipado dinámico: Las variables pueden ser de cualquier tipo, este no se debe especificar.
+
+
+TIPOS DE DATOS
+
+* Booleanos: True (Cualquier entero) o False (Cero)
+* Enteros: -10, 0, 10, 9999
+* Flotantes: 12.5, 16.7, 18.5, 100.0
+* Strings: "Texto", 'Texto', '',"", "123", "Carro", 'Hola'
+
+* Listas: [], [1,2,3,4,5], ["a","e","i"], [1,"a",2,"b",3,"c"] - Mutables
+* Tuplas: (), (1,2,3), ("a","b","c"), [1,"a",2,"b",3,"c"] - Inmutables
+* Diccionarios: {Clave: Valor, Clave2: Valor, Clave3: Valor}
+* Conjuntos: {1,2,3,4}, {"a","b","c"}

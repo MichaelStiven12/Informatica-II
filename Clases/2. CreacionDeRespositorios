@@ -1,0 +1,24 @@
+25-08-2022
+
+Aprenderemos a hacer uso de Git y GitHub, los cuales son herramientas para el uso y manejo de repositorios 
+locales y en la nube.
+
+## Pasos para crear repositorio =>
+
+1. Tener Git y cuenta GitHub.
+2. Configurar ususario y correo.
+    - Abrimos el terminal y escribimos los siguiente: 
+    -git config --global user.name "Nombre"
+     git config --global user.email "Correo"
+
+3. Ir al icono (3 nodos).
+4. Ir la working directory (Iicializar un repositorio)
+   dando click al boton <inicializa repository>.
+5. Llevarlo al stage area: Se selecciona el simbolo "+"
+   que se encuentra sobre el nombre del archivo.
+6. Llevarlo al commit area: Para ello se selecciona el boton <commit>. 
+7. Llevarlo a la nube.
+   Para ello selecciono el icono en forma de nube.
+
+
+## Veremos los fundamentos de python a continuación 
