@@ -24,42 +24,40 @@ resultado2=e2/c2
 print("Resultado2 = ", resultado2)
 
 # Strings: "123", "Michael"
-# Luego sume ambas variables y determine si la operación es posible, si asi es almacenelo en 
-# una variable de su elección.
+# Luego sume ambas variables y determine si la operación es posible, si asi es almacenelo en una variable de su elección.
 
-a3="123"
+a3="123 "
 b3="Michael"
 
-c3=a3+ " " +b3
+c3=a3+b3
 
-print("La suma de las cadenas es: ",c3)
+print(c3)
 
 ########## Para pensar ############
 
 # Busque una manera de convertir :
 # Entero a flotante
-# Flotante a entero
-# String a entero y flotante
-# Número a string
 
 a4=5
 
-b4=float(a4)
+print(float(a4))
 
-print("El número convertido a flotante es: ",b4)
+# Flotante a entero
 
-a5="5.9"
+b4=6.0
 
-b5=int(float(a5))
-b6=float(a5)
+print(int(b4))
 
-print("La cadena convertida a entero es: ",b5)
-print("La cadena convertida a flotante es: ",b6)
+# String a entero y flotante
 
-a7=10
+c4="10"
 
-b7=str(a7)
+print(int(c4))
+print(float(c4))
 
-print("El entero convertido a cadena es: ",b7)
+# Número a string
 
-###################################
+d4=15
+
+print(str(d4))
+

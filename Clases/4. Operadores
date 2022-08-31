@@ -1,0 +1,12 @@
+30 - 08 - 2022
+
+OPERADORES
+
+Operador de asignación: =
+Operadores aritmeticos: +, -, *, /, // (División entera), % (Residuo de una división), ** (Potencia)
+Operadores lógicos: and, or, not
+Operadores de comparación: >, >=, <, <=, !=
+Operadores de pertenencia: in, not in
+Operadores de conjuntos: | (Union), & (Intersección), - (Diferencia)
+
+
