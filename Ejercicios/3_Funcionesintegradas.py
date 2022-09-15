@@ -121,7 +121,7 @@ print(list(secuencia4))
 
 print(list(range(990,14,-15))) 
 '''
-
+'''
 #Listas
 
 secuencia5 = range(1,10000,3)
@@ -142,5 +142,5 @@ print("Revertir lista: ", list(reversed(lista)))
 
 #Repetir el ejercicio anterior usando reversed
 
-
+'''
 
