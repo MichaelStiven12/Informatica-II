@@ -1,11 +1,13 @@
 
 '''
 print("Ejercicio numeros del 1 al 100")
-contador = 10
+contador = 1
 string_num = ""
-while contador <= 100:
+while contador < 100:
     string_num = string_num + str(contador) + " - "
     contador = contador + 1
+    if contador == 100:
+        string_num = string_num + str(contador)
 
 print(string_num)
 '''

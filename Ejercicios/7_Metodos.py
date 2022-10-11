@@ -1,9 +1,6 @@
 #Buscar metodos que hagan las siguientes operaciones
 
-from operator import invert
-
-
-cadena = "sdlksdfjk"
+cadena = "michael"
 #Retornar los caracteres en mayuscula
 print(cadena.upper()) #estos metodos retornan otra cadena o entero, no cambian la original
 
@@ -11,19 +8,10 @@ print(cadena.upper()) #estos metodos retornan otra cadena o entero, no cambian l
 print(cadena.lower())
 
 #Retornar si el número de veces que se repote un caracter 
-print(cadena.count("s"))
-
-#Retornar si la cadena es alfabetica
-print(cadena.isalpha())
-
-#Retornar si la cadena es alfanumerica
-print(cadena.isalnum())
-
-#Retornar si la cadena contiene números
-print(cadena.isnumeric())
+print(cadena.count("i"))
 
 #Reemplazar una letra por otra letra
-print(cadena.replace("s","t"))
+print(cadena.replace("l","s"))
 
 print(cadena)
 

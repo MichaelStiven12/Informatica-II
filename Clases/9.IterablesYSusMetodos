@@ -33,7 +33,7 @@ operaciones: append(value), insert(index, value),
 ordenado:    sort(), reverse()
 almacenamiento: clear(), copy()
 Indexado: [indice]
-Slicing:  [indice1:indice2:salto]
+Slicing:  [indice1:indice2:salto] (Los indices comienzan desde el 1 cuando se cuentan de adelante hacia atras)
 
 
 -----Tuplas--

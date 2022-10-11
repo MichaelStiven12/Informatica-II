@@ -1,5 +1,5 @@
-'''
-Recorrer los siguientes iterables:
+
+#Recorrer los siguientes iterables:
 
 cadena = "HolaMundoCruel"
 lista = [1,2,30,100,50,-20]
@@ -9,16 +9,22 @@ rango = range(1,100)
 for letra in cadena:
     print(letra, end = "--")
 
+print("\n")
+
 for numero in lista:
     print(numero, end = " ")
+
+print("\n")
 
 for numero in tupla:
     print(numero, end = " ")
 
+print("\n")
+
 for numero in rango:
     print(numero, end = " ")
 
-'''
+
 
 '''
 Recorrer un iterable con los números del 1 al 10 utilizando diferentes iterables
@@ -51,9 +57,9 @@ for i in range(0,21,2):
 '''
 Imprimir los números multiplos de 4 desde el 5 hasta el 30:
 '''
-
+'''
 for i in range(8,30,4):
     print(i, end = "  ")
 
-
+'''
 

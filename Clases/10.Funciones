@@ -1,0 +1,23 @@
+11 - 10 - 2022
+
+FUNCIONES
+
+Son el elemento básico del paradigma de programación modular. Sirven para evitar la repetición de código,
+agrupandolo en secciones, que luego podrán ser llamadas.
+
+
+NOTACION
+
+def <nombreFuncion>(parametros ...):
+    <sentencias>
+    <condicionales>
+    <ciclos>
+    return <variable de salida> #cuando se llame a la función devolverá la variable que esté en el return.
+
+
+¿Como llamar a la función en python?
+
+<nombreFuncion>(parametros)
+
+variableRecibida = <nombreFuncion>(parametros)
+
