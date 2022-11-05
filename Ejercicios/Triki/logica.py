@@ -12,8 +12,4 @@ def error():
           if i == "X" or i == "O":
                espacio = True
      return espacio
-     
-
-
-
 

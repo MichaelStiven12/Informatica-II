@@ -13,11 +13,11 @@ for i in range(1,10):
 
         logica.accion(interfaz.t1,interfaz.p1)
 
-        if logica.error() == True:
+        if logica.error() == False:
             
             interfaz.errorTurno1()
 
-        interfaz.jugada1(interfaz.p1)
+        interfaz.jugada1(interfaz.p1_1)
 
         interfaz.separacion()
     else:
@@ -25,11 +25,11 @@ for i in range(1,10):
 
         logica.accion(interfaz.t2,interfaz.p2)
 
-        if logica.error() == True:
+        if logica.error() == False:
             
             interfaz.errorTurno2()
 
-        interfaz.jugada2(interfaz.p2)
+        interfaz.jugada2(interfaz.p2_1)
 
         interfaz.separacion()
 

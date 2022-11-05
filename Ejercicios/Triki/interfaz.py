@@ -22,6 +22,7 @@ def turno1():
     return t1, p1
 
 def errorTurno1():
+    global p1_1
     p1_1 = input("Esta posición ya está ocupada, por favor ingrese otra: ")
     return p1_1
     
@@ -34,6 +35,7 @@ def turno2():
     return t2, p2
     
 def errorTurno2():
+    global p2_1
     p2_1 = input("Esta posición ya está ocupada, por favor ingrese otra: ")
     return p2_1
 
