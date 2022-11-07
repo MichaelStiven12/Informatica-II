@@ -5,7 +5,7 @@ En este módulo contiene las funciones lógicas del juego
 
 *actualizaTableroLogico(tableroLogico, posicion, caracter) => Retorna tablero logico actualizado lista
 
-*revisarFilasYColumnas() => Retorna una posible '''
+*revisarFilasYColumnas() => Retorna una posible jugada'''
 
 
 def obtenerTableroLogico():
@@ -15,8 +15,20 @@ def obtenerTableroLogico():
 def actualizarTableroLogico(tableroLogico, posicion, numero):
     tableroLogico[posicion] = numero
     return tableroLogico
-'''
+
 def revisarFilasYColumnas(tableroLogico):
-    for numero in tableroLogico:
-        if tableroLogico[0] != tableroLogico[1] != tableroLogico[2] != tableroLogico[4]: 
-'''
+    fila = False
+    columna = False
+    region = False
+    for numero in [0,4,8,12]:
+        if tableroLogico[numero] != tableroLogico[numero + 1] != tableroLogico[numero + 2] != tableroLogico[numero + 3]:
+            fila = True
+    for numero in [0,1,2,3]:
+        if tableroLogico[numero] != tableroLogico[numero + 4] != tableroLogico[numero + 8] != tableroLogico[numero + 12]:
+            columna = True
+    for numero in [0,2,8,10]:
+        if tableroLogico[numero] != tableroLogico[numero + 1] != tableroLogico[numero + 4] != tableroLogico[numero + 5]:
+            region = True
+    return [fila, columna, region]
+
+
