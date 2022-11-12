@@ -75,7 +75,7 @@ de la vida real
 * Bandeja paisa, sancocho de gallina, ajiaco
 
 CLASE = Comida tipica
-OBJETOS = Platos
+OBJETOS = Bandeja paisa, sancocho de gallina, ajiaco
 ATRIBUTOS = Arroz, Chicharron, Frijoles, Aguacate, Chorizo, Huevo; Gallina, Papa, Platano, Yuca, Cilantro, Agua; Pollo, Papa, Cilantro, Agua 
 METODOS = Comer
 
@@ -94,4 +94,24 @@ ATRIBUTOS = Estudios, Experiencia, Conocimiento; Estudios, Experiencia, Conocimi
 METODOS = Liderar proyectos, Enseñar, Investigar; Ejercer funciones administrativas, Enseñar; Enseñar, Investigar 
 
 
+NOTACION:
 
+class <NombreDeLaClase>:
+   def __init__(self, <ValorAtributo>):
+      self.<NombreAtributo> = <ValorAtributo>
+   
+   def alimentar(self, <ValorEntrada>):
+      <sentencias>
+      return <valorDeRetorno>
+   
+   def <metodo2>(self, <ValorEntrada>):
+      <sentencias2>
+      return <valorDeRetorno2>
+
+        .
+        .
+        .
+        
+    def <metodoN>(self, <ValorEntrada>):
+        <sentenciasN>
+        return <valorDeRetornoN>
