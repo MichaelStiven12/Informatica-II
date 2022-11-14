@@ -7,10 +7,10 @@ un paradigma de programacion llamado: programacion
 orientada a objetos (POO). Que es diferente
 al anterior visto: programación funcional.
 
--- La POO, consiste en modelar (abstraer) cualquier
+- La POO, consiste en modelar (abstraer) cualquier
    problema en: clases, objetos (instancias) y metodos (funciones)
 - La POO permite relacionar entidades distintas (estudiante, materias, profesores)
--
+
 ------- DEFINICIONES INDISPENSABLES PARA ENTERNDER POO-----
 CLASE: Es un modelo o plantilla genérica a partir del cual
          se crean objetos. Una clase dota a un objeto con dos

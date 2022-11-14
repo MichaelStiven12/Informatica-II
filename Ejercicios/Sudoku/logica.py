@@ -17,18 +17,17 @@ def actualizarTableroLogico(tableroLogico, posicion, numero):
     return tableroLogico
 
 def revisarFilasYColumnas(tableroLogico):
-    fila = False
-    columna = False
-    region = False
+    fila = []
+    columna = []
+    region = []
     for numero in [0,4,8,12]:
         if tableroLogico[numero] != tableroLogico[numero + 1] != tableroLogico[numero + 2] != tableroLogico[numero + 3]:
-            fila = True
+            fila.append(numero)
     for numero in [0,1,2,3]:
         if tableroLogico[numero] != tableroLogico[numero + 4] != tableroLogico[numero + 8] != tableroLogico[numero + 12]:
-            columna = True
+            columna.append(numero)
     for numero in [0,2,8,10]:
         if tableroLogico[numero] != tableroLogico[numero + 1] != tableroLogico[numero + 4] != tableroLogico[numero + 5]:
-            region = True
-    return [fila, columna, region]
-
+            region.append(numero)
+    return [len(fila), len(columna), len(region)]
 

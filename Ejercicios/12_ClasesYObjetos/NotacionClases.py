@@ -11,8 +11,6 @@ class ComidaColombiana:
         self.ingrediente1 = ingrediente1
         self.ingrediente2 = ingrediente2
         self.ingrediente3 = ingrediente3
-    
-    #Para crear metodos
 
     def provocar(self, opcion):
         if opcion in ["Huele bien", "Se ve bien", "Tengo hambre"]:

@@ -30,13 +30,13 @@ def explicacionJuego():
 
 def dibujarTablero(tableroLogico):
     tableroVisual = '''
-    | {}  | {}  | {}  | {}  |    
-    |----|----|----|----|
-    | {}  | {}  | {}  | {}  | 
-    |----|----|----|----|
-    | {}  | {}  | {}  | {}  | 
-    |----|----|----|----|
-    | {}  | {}  | {}  | {}  |   
+      {}  | {}  | {}  | {}      
+     ----|----|----|----
+      {}  | {}  | {}  | {}   
+     ----|----|----|----
+      {}  | {}  | {}  | {}   
+     ----|----|----|----
+      {}  | {}  | {}  | {}     
     '''.format(tableroLogico[0],tableroLogico[1],tableroLogico[2],tableroLogico[3],
                tableroLogico[4],tableroLogico[5],tableroLogico[6],tableroLogico[7],
                tableroLogico[8],tableroLogico[9],tableroLogico[10],tableroLogico[11],
